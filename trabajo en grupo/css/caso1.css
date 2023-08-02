@@ -1,0 +1,62 @@
+body{
+    border: 2px solid black;
+    width: 750px;
+    height: 750px;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+}
+.banner{
+    width: 500px;
+    height: 250px;
+    background: #ff0092;
+background: linear-gradient(190deg,#ff0092 10%, #2a00ff 50%);
+background: -webkit-linear-gradient(190deg,#ff0092 10%, #2a00ff 50%);
+background: -moz-linear-gradient(190deg,#ff0092 10%, #2a00ff 50%);
+}
+.logo{
+    border: 2px solid black;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    justify-content: flex-end;
+    float: right;
+    
+}
+.miLista li {
+    display: flex;
+    justify-content: center;
+
+}
+.lista{
+    justify-content: center;
+    height: 50px;
+    width: 750px;
+}
+main{
+    display: flex;
+    height: 400px;
+}
+#izquierdaAside{
+    height: 400px;
+    width: 125px;
+    border: 2px solid black;
+}
+#articuloCentro{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+
+}
+#derechaAside{
+    height: 400px;
+    width: 125px;
+    border: 2px solid black;
+
+}
+footer{
+    height: 50px;
+    width: 750px;
+    background-color: blue;
+}
